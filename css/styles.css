@@ -1,0 +1,254 @@
+
+
+/* Mulai dari sini, tambahkan CSS lainnya */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+header {
+  background: #084dce;
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .logo h1 {
+  margin: 0;
+  font-size: 2em;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1em;
+}
+
+.logo-gambar {
+  background-color: transparent;
+  width: 50px;
+}
+
+.hero {
+  background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+  padding: 100px 20px;
+  text-align: center;
+}
+
+.hero h2 {
+  font-size: 3em;
+  margin: 0 0 20px;
+}
+
+.hero p {
+  font-size: 1.2em;
+  margin: 0 0 20px;
+}
+
+.hero button {
+  background: #ff5722;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1em;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.hero button:hover {
+  background: #e64a19;
+}
+
+section {
+  padding: 40px 20px;
+}
+
+#about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f5f7fa;
+  padding: 40px 0;
+}
+
+.about-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  max-width: 1200px;
+  width: 90%;
+}
+
+.about-image {
+  flex: 1;
+}
+
+.about-image img {
+  width: 100%;
+  max-width: 600px;
+  display: block;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.about-content {
+  flex: 1;
+  text-align: left;
+  margin-left: 20px;
+}
+
+.course-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.course {
+  width: calc(30% - 40px);
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.course:hover {
+  transform: scale(1.05);
+}
+
+.course h3 {
+  margin-top: 0;
+  font-size: 1.5em;
+  color: white;
+}
+
+.course img {
+  display: block;
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.course ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.course li {
+  margin-bottom: 10px;
+  color: white;
+}
+
+.course.grammar {
+  background-color: #4CAF50;
+}
+
+.course.vocabulary {
+  background-color: #2196F3;
+}
+
+.course.reading {
+  background-color: #FFC107;
+}
+
+.course-gambar {
+  width: 100px;
+}
+
+.test-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.test {
+  width: calc(30% - 40px);
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: transform 0.3s;
+  background-color: #7eaef791;
+}
+
+.test:hover {
+  transform: scale(1.05);
+}
+
+.test h3 {
+  margin-top: 0;
+  font-size: 1.5em;
+}
+
+.test img {
+  display: block;
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.test ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.test li {
+  margin-bottom: 10px;
+}
+
+.grammar-test {
+  background-color: #ccffcc;
+  padding: 20px;
+  border-radius: 10px;
+  flex: 1;
+}
+
+.vocab-test {
+  background-color: #5454ff57;
+  padding: 20px;
+  border-radius: 10px;
+  flex: 1;
+}
+
+.reading-test {
+  background-color: #fcd56095;
+  padding: 20px;
+  border-radius: 10px;
+  flex: 1;
+}
+
+footer {
+  background: #084dce;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
